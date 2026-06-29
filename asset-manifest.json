@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Portfolio_Selva_Lakshmi/static/js/main.21b2135f.js",
+    "main.js": "/Portfolio_Selva_Lakshmi/static/js/main.aba0a8fb.js",
     "index.html": "/Portfolio_Selva_Lakshmi/index.html",
-    "main.21b2135f.js.map": "/Portfolio_Selva_Lakshmi/static/js/main.21b2135f.js.map"
+    "main.aba0a8fb.js.map": "/Portfolio_Selva_Lakshmi/static/js/main.aba0a8fb.js.map"
   },
   "entrypoints": [
-    "static/js/main.21b2135f.js"
+    "static/js/main.aba0a8fb.js"
   ]
 }
