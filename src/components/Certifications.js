@@ -68,25 +68,26 @@ export default function Certifications({ darkMode }) {
     },
   };
 
-  const certifications = [
-    {
-      name: "Introduction to Industry 4.0 and Industrial IoT",
-      link: "/certificates/industry4.0.pdf",
-    },
-    {
-      name: "Full Stack Web Development Intern – EY Global Delivery Services (AICTE)",
-      link: "/certificates/EY.pdf",
-    },
-    {
-      name: "Web Development Internship – Digisailor",
-      link: "/certificates/Digisailor.pdf",
-    },
-    {
-      name: "CLA: Programming Essentials in C – Cisco Networking Academy",
-      link: "/certificates/CLA.pdf",
-    },
+const BASE = "/Portfolio_Selva_Lakshmi";
 
-  ];
+const certifications = [
+  {
+    name: "Introduction to Industry 4.0 and Industrial IoT",
+    link: BASE + "/certificates/industry4.0.pdf",
+  },
+  {
+    name: "Full Stack Web Development Intern – EY Global Delivery Services (AICTE)",
+    link: BASE + "/certificates/EY.pdf",
+  },
+  {
+    name: "Web Development Internship – Digisailor",
+    link: BASE + "/certificates/Digisailor.pdf",
+  },
+  {
+    name: "CLA: Programming Essentials in C – Cisco Networking Academy",
+    link: BASE + "/certificates/CLA.pdf",
+  },
+];
 
   return (
     <motion.section
