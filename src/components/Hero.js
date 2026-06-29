@@ -115,7 +115,7 @@ export default function Hero({ darkMode }) {
 
           {/* ✅ PREMIUM BUTTON (NO hover variable needed) */}
           <motion.a
-            href="/resume.pdf"
+           href={process.env.PUBLIC_URL + "/resume.pdf"}
             download
             style={styles.btn}
             whileHover={{
@@ -130,10 +130,10 @@ export default function Hero({ darkMode }) {
         </div>
 
         <img
-          src="/profile.jpg"
-          alt="Selva Lakshmi"
-          style={styles.image}
-        />
+  src={process.env.PUBLIC_URL + "/profile.jpg"}
+  alt="Selva Lakshmi"
+  style={styles.image}
+/>
       </div>
     </motion.section>
   );

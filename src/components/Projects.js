@@ -49,7 +49,7 @@ export default function Projects({ darkMode }) {
             fontWeight: "700",
           }}
         >
-          Projects & Internship
+          Projects 
         </h2>
 
         {projects.map((project, index) => (
