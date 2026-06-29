@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #faf7f2; /* soft warm white */
+  color: #2b2b2b;
+  scroll-behavior: smooth;
+}
+
+/* Better box sizing for layout stability */
+* {
+  box-sizing: border-box;
+}
+
+/* Section spacing consistency */
+section {
+  padding: 80px 20px;
+  scroll-margin-top: 90px;
+}
+
+/* Links */
+a {
+  color: #6f4e37; /* brown */
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #a47148; /* lighter brown */
+}
+
+/* Better paragraph spacing (optional but professional) */
+p {
+  line-height: 1.6;
+}
+html{
+scroll-behavior: smooth;
+}
+nav a {
+  position: relative;
+}
+nav a:hover {
+  color: #a47148;
+  transform: translateY(-2px);
+}
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: #8b5e3c;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
+nav a:hover {
+  color: #a47148;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+body {
+  margin: 0;
+  transition:
+    background-color 0.4s ease,
+    color 0.4s ease;
+}

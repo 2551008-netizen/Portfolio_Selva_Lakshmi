@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  color: #2b2b2b;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  padding: 80px 20px;
+}
+
+a {
+  color: #6f4e37;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #a47148;
+}
